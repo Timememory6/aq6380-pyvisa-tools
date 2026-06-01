@@ -35,7 +35,7 @@ compatible pyvisa-py setup.
 Run a basic sweep:
 
 ```powershell
-python .\examples\aq6380_basic_sweep.py --address TCPIP0::192.168.0.10::inst0::INSTR --center-nm 1550 --span-nm 1.0
+python .\examples\aq6380_basic_sweep.py --address TCPIP0::192.0.2.10::inst0::INSTR --center-nm 1550 --span-nm 1.0
 ```
 
 The script writes a CSV file with:
