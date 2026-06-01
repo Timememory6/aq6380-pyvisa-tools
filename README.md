@@ -22,7 +22,7 @@ private measurement data, or lab-specific analysis workflows.
 Create a Python environment, then install the package in editable mode:
 
 ```powershell
-git clone https://github.com/<your-github-username>/aq6380-pyvisa-tools.git
+git clone https://github.com/Timememory6/aq6380-pyvisa-tools.git
 cd aq6380-pyvisa-tools
 python -m pip install -e .
 ```
@@ -79,3 +79,9 @@ Out of scope:
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## Contributing
+
+Issues and pull requests are welcome for general AQ6380 control examples,
+documentation improvements, and reusable spectrum-processing utilities. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
